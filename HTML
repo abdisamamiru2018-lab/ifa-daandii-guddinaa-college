@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="om">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ifa Daandii Guddinaa College - Odeeffannoo barnootaa fi galmee barattootaa.">
+  <title>Ifa Daandii Guddinaa College</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #183047;
+      background: #f4f7fb;
+      line-height: 1.6;
+    }
+    header {
+      background: #073b66;
+      color: white;
+      padding: 22px 16px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 27px; }
+    header p { margin-bottom: 0; }
+    nav {
+      background: #075985;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(135deg, #075985, #138b83);
+      color: white;
+      padding: 55px 20px;
+      text-align: center;
+    }
+    .hero h2 { font-size: 32px; margin: 0 0 12px; }
+    .button {
+      display: inline-block;
+      background: #facc15;
+      color: #17324a;
+      padding: 11px 20px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    section { padding: 30px 16px; max-width: 1050px; margin: auto; }
+    section h2 { text-align: center; color: #075985; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 9px #00000012;
+    }
+    .card h3 { color: #087e78; }
+    .notice {
+      background: #e0f2fe;
+      border-left: 5px solid #0284c7;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      background: #073b66;
+      color: white;
+      padding: 22px 12px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 22px; }
+      .hero h2 { font-size: 26px; }
+      nav a { display: inline-block; margin: 5px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ifa Daandii Guddinaa College</h1>
+    <p>Barnoota Qulqullina Qabuun Gara Fuuldura Ifaatti!</p>
+  </header>
+
+  <nav>
+    <a href="#home">Mana</a>
+    <a href="#about">Waa'ee Keenya</a>
+    <a href="#programs">Barnoota</a>
+    <a href="#admission">Galmee</a>
+  </nav>
+
+  <main>
+    <div class="hero" id="home">
+      <h2>Baga Gara Kolleejjii Keenya Dhuftan!</h2>
+      <p>Beekumsa, Ogummaa fi Carraa Hojii Gara Fuulduraatti.</p>
+      <a class="button" href="#programs">Gosa Barnootaa Ilaali</a>
+    </div>
+
+    <section id="about">
+      <h2>Waa'ee Kolleejjii Keenya</h2>
+      <div class="card">
+        <p>
+          Ifa Daandii Guddinaa College keessatti barattoonni
+          beekumsa fi ogummaa hojii irratti isaan gargaaru
+          akka argatan ni hawwina.
+        </p>
+        <p>
+          Odeeffannoo seensa barnootaa, ulaagaalee fi tajaajila
+          kolleejjii yeroo mirkanaa'an as irratti ni maxxansina.
+        </p>
+      </div>
+    </section>
+
+    <section id="programs">
+      <h2>Gosa Barnootaa</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Nursing</h3>
+          <p>Barnoota ogummaa kunuunsa fayyaa.</p>
+          <p>Sadarkaa: III–IV</p>
+        </div>
+        <div class="card">
+          <h3>Pharmacy</h3>
+          <p>Barnoota ogummaa qorichaa.</p>
+          <p>Sadarkaa: III–IV</p>
+        </div>
+        <div class="card">
+          <h3>Medical Laboratory</h3>
+          <p>Barnoota qorannoo laaboraatorii fayyaa.</p>
+          <p>Sadarkaa: III–IV</p>
+        </div>
+        <div class="card">
+          <h3>Animal Health</h3>
+          <p>Barnoota fayyaa beelladootaa.</p>
+          <p>Sadarkaa: I–IV</p>
+        </div>
+        <div class="card">
+          <h3>Crop Production</h3>
+          <p>Barnoota oomisha midhaanii.</p>
+        </div>
+        <div class="card">
+          <h3>Animal Production</h3>
+          <p>Barnoota oomisha beelladootaa.</p>
+        </div>
+        <div class="card">
+          <h3>Marketing and Sales Management</h3>
+          <p>Barnoota bulchiinsa gabaa fi gurgurtaa.</p>
+        </div>
+      </div>
+      <p class="notice">
+        Hubachiisa: Gosti barnootaa, sadarkaan fi hayyamni
+        barnootaa waajjira kolleejjii irraa mirkanaa'uu qabu.
+      </p>
+    </section>
+
+    <section id="admission">
+      <h2>Galmee Barattootaa</h2>
+      <div class="card">
+        <p>
+          Galmee barattootaa online jalqabuuf ulaagaalee,
+          yeroo galmee fi odeeffannoo quunnamtii kolleejjii
+          mirkanaa'e argachuun barbaachisaa dha.
+        </p>
+        <p>
+          <strong>Hubachiisa:</strong> Fuulli kun yeroo ammaa
+          unka galmee odeeffannoo kuusu hin qabu. Unka galmee
+          dhugaa fi kuusaan odeeffannoo yeroo itti aanu ni dabalama.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ifa Daandii Guddinaa College</p>
+    <p>Barnoota har'aa, abdii borii!</p>
+  </footer>
+</body>
+</html>
